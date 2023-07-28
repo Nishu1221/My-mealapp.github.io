@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meal App</title>
+
+    <link rel="stylesheet" href="meal.css">
+</head>
+<body>
+    <img src="C:\Users\awsmg\OneDrive\Desktop\FrontendskillTestProject\MajorProject\imageRequired\logo.jpg" alt="">
+    <header>
+        <!-- Add an image to the header section -->
+        <img id="logo" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/food-chef-cook-yello-pastry-meal-logo-design-template-af9387f8158438dd41c3f965734053bd_screen.jpg?ts=1619323870" alt="logo">
+        <!-- Create a div to hold navigation links -->
+        <div class="head">
+            <!-- Create a link to the Home page -->
+            <a href="#">Home</a>
+            <!-- Create a link to the Favourite Meals page -->
+            <a href="#" id="fav">Favourite Meals</a>
+            <!-- Create a link to reset the page -->
+            <a href="" id="reset">reset</a>
+        </div>
+    </header>
+    <!-- Create a container div for the search bar -->
+    <div class="container">
+        <!-- Create a text input for the search bar -->
+        <input type="text" id="search-input" placeholder="Search for a meal...">
+        <!-- Create a button to submit the search query -->
+        <button id="search-button">Search</button>
+    </div>
+    <!-- Create a div to hold the search results -->
+    <div id="search-results"></div>
+    <script src="meal.js"></script>
+</body>
+</html>
